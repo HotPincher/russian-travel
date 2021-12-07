@@ -1,0 +1,7 @@
+.intro__list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0;
+
+}

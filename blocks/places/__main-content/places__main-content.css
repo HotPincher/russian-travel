@@ -1,0 +1,10 @@
+.places__main-content {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+@media (max-width: 695px) {
+  .places__main-content {
+    padding: 0 16px;
+  }
+}
