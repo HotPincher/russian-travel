@@ -9,18 +9,18 @@
   <title>Document</title>
 </head>
 
-<body>
+<body class="body">
   <div class="page page_laptop-resolution">
     <header class="header">
       <ul class="header__lang">
         <li class="header__lang-item">
-          <a class="header__lang-link" href="#">Ru</a>
+          <a class="link header__lang-link header__lang-link_enabled" href="#">Ru</a>
         </li>
         <li class="header__lang-item">
-          <a class="header__lang-link header__lang-link_inactive" href="#">En</a>
+          <a class="link header__lang-link" href="#">En</a>
         </li>
       </ul>
-      <img class="header__logo" src="./images/__logo.svg" alt="Russian travel logo">
+      <img class="header__logo" src="./images/__logo.svg" alt="Логотип с картой России">
     </header>
     <main class="content">
       <section class="lead">
@@ -28,7 +28,7 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а&nbsp;здесь.
         </p>
-        <div class="lead__map-container"><img class="lead__map" src="./images/lead__image.jpg" alt="Travel over Russia">
+        <div class="lead__map-container"><img class="lead__map" src="./images/lead__background.jpg" alt="Путешествие по России">
         </div>
         <span class="lead__caption">ваша полка — верхняя</span>
       </section>
@@ -61,19 +61,20 @@
         </ul>
       </section>
       <section class="photo-grid">
+        <h2 class="photo-grid__title_hidden">Красивые места</h2>
         <div class="photo-grid__container">
-          <img src="./images/__item_1.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_2.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_3.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_4.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_5.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_6.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_7.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_8.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_9.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_10.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_11.png" alt="Grid item" class="photo-grid__item" />
-          <img src="./images/__item_12.png" alt="Grid item" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_1.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_2.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_3.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_4.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_5.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_6.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_7.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_8.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_9.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_10.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_11.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
+          <img src="./images/photo-grid__item_12.jpg" alt="Фото из фотоальбома" class="photo-grid__item" />
         </div>
       </section>
       <section class="places">
@@ -82,9 +83,9 @@
             <h2 class="places__title">Куршская коса</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="#">park-kosa.ru</a>
+              <a class="link places__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
-            <img class="places__image" src="./images/place__image_1.png" alt="" />
+            <img class="places__image" src="./images/place__image_1.jpg" alt="Куршская коса" />
             <div class="places__main-content">
               <p class="places__paragraph-preambule">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -106,9 +107,10 @@
             <h2 class="places__title">Кольский</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="#">National Geographic</a>
+              <a class="link places__link" target="_blank"
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
             </div>
-            <img class="places__image" src="./images/place__image_2.png" alt="" />
+            <img class="places__image" src="./images/place__image_2.jpg" alt="Кольский полуостров" />
             <div class="places__main-content">
               <p class="places__paragraph-preambule">
                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -130,9 +132,10 @@
             <h2 class="places__title">Алтай</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="#">Facebook</a>
+              <a class="link places__link" target="_blank"
+                href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
             </div>
-            <img class="places__image" src="./images/place__image_3.png" alt="" />
+            <img class="places__image" src="./images/place__image_3.jpg" alt="Алтай" />
             <div class="places__main-content">
               <p class="places__paragraph-preambule">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -154,9 +157,9 @@
             <h2 class="places__title">Зимний Байкал</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="#">https://vk.com/baikalmile</a>
+              <a class="link places__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
-            <img class="places__image" src="./images/place__image_4.png" alt="" />
+            <img class="places__image" src="./images/place__image_4.jpg" alt="Зимний Байкал" />
             <div class="places__main-content">
               <p class="places__paragraph-preambule">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -177,9 +180,9 @@
             <h2 class="places__title">Карелия</h2>
             <div class="places__website">
               <h3 class="places__url-heading">URL</h3>
-              <a class="places__link" href="#">http://vodlozero.ru/</a>
+              <a class="link places__link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
             </div>
-            <img class="places__image" src="./images/place__image_5.png" alt="" />
+            <img class="places__image" src="./images/place__image_5.jpg" alt="Карелия" />
             <div class="places__main-content">
               <p class="places__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -197,34 +200,36 @@
         </div>
       </section>
       <section class="cover">
-        <div class="cover__overlay">
-          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
-        </div>
+        <a class="link cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <div>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
+        </a>
       </section>
     </main>
     <footer class="footer">
       <ul class="footer__nav">
         <li class="footer__item">
-          <a class="footer__link" href="#">Карты</a>
+          <a class="link footer__link" href="https://yandex.ru/maps">Карты</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Погода</a>
+          <a class="link footer__link" href="https://yandex.ru/pogoda">Погода</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Расписание</a>
+          <a class="link footer__link" href="https://rasp.yandex.ru">Расписание</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Календарь</a>
+          <a class="link footer__link" href="https://calendar.yandex.ru">Календарь</a>
         </li>
         <li class="footer__item">
-          <a class="footer__link" href="#">Путешествия</a>
+          <a class="link footer__link" href="https://travel.yandex.ru">Путешествия</a>
         </li>
       </ul>
-      <p class="footer__copyright">&copy; 2020. Павел Сенчуров</p>
+      <p class="footer__copyright">&copy; 2021. Pavel Senchurov</p>
     </footer>
   </div>
 </body>

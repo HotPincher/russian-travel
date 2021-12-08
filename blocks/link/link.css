@@ -1,0 +1,4 @@
+.link:hover {
+  cursor: url(../../../images/Pointer.png), pointer;
+  opacity: 80%;
+}
