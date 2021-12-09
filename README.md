@@ -1,0 +1,16 @@
+Project name: Travel Across Russia
+
+
+This is my second prototype project in Yandex Practicum Web Devlopper training course. 
+NOTICE: The current repository is for training purposes only. 
+
+The following features have been implemented in this page:
+
+- adaptive web layout
+- grid and flex layout
+- relative measurement units (including calc() function)
+- translation of links as hover animation effect
+- responsive opacity overlays
+
+Authored by Pavel Senchurov
+pavel.m.senchurov@gmail.com
