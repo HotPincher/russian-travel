@@ -13,7 +13,7 @@
   padding: 0 16px;
 }
 
-@media (max-width: 688px) {
+@media (max-width: 707px) {
   .lead__title {
     font-size: 68px;
     line-height: 60px;
