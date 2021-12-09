@@ -5,16 +5,12 @@
   margin: 0 auto;
   font-family: Inter;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 122%;
   text-align: center;
-  text-align: center;
   color: #fff;
-  z-index: 2;
-
 }
-
 
 @media (max-width: 518px) {
   .cover__subtitle {
