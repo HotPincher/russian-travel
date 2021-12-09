@@ -11,9 +11,15 @@
   line-height: 106%;
   text-align: center;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
-@media (max-width: 518px) {
+@media (max-width: 710px) {
   .cover__title {
     font-size: 32px;
     line-height: 109%;

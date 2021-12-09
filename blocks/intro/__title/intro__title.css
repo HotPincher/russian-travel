@@ -8,6 +8,12 @@
   margin-block-end: 0;
   color: #fff;
   max-width: 690px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 765px) {
@@ -16,7 +22,7 @@
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 719px) {
   .intro__title {
     font-size: 46px;
     line-height: 51px;

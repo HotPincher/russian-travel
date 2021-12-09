@@ -13,6 +13,12 @@
   margin-top: 32px;
   margin-bottom: 64px;
   padding: 0 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 1024px) {
@@ -20,7 +26,6 @@
     margin-bottom: 56px;
   }
 }
-
 
 @media (max-width: 690px) {
   .lead__subtitle {
