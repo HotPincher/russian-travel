@@ -1,7 +1,7 @@
 .places__paragraph-preambule {
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   color: #fff;
@@ -22,8 +22,9 @@
   }
 }
 
+
 @media (max-width: 695px) {
   .places__paragraph-preambule {
-    margin-top: 32px;
+  margin-bottom: 0;
   }
 }
