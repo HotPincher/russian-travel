@@ -12,5 +12,10 @@ The following features have been implemented in this page:
 - translation of links as hover animation effect
 - responsive opacity overlays
 
+You may look into the website using the following link:
+
+https://github.com/HotPincher/russian-travel/settings/pages
+
+
 Authored by Pavel Senchurov
 pavel.m.senchurov@gmail.com
