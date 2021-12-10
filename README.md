@@ -14,7 +14,7 @@ The following features have been implemented in this page:
 
 You may look into the website using the following link:
 
-https://github.com/HotPincher/russian-travel/settings/pages
+https://hotpincher.github.io/russian-travel/index.html
 
 
 Authored by Pavel Senchurov
