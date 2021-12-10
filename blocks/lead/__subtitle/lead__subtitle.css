@@ -19,6 +19,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  transition: all 1s linear;
 }
 
 @media (max-width: 1024px) {

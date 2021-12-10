@@ -1,5 +1,4 @@
 .photo-grid__item {
-  /* min-width: 300px;
-  min-height: 235px; */
   width: 100%;
+  transition: all 1s linear;
 }

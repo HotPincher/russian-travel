@@ -4,6 +4,7 @@
   column-gap: 40px;
   row-gap: 48px;
   padding-top: 80px;
+  transition: all 1s linear;
 }
 
 .places__card:nth-of-type(1) {

@@ -5,6 +5,7 @@
   /* grid-auto-flow: column; */
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
+  transition: all 1s linear;
 }
 
 @media (max-width: 1024px) {
