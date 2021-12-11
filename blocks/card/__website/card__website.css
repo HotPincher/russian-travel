@@ -1,5 +1,4 @@
-.places__website {
-  max-height: 46px;
+.card__website {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   align-self: end;
@@ -11,7 +10,7 @@
 }
 
 @media (max-width: 695px) {
-  .places__website {
+  .card__website {
     align-self: flex-start;
     margin-top: 32px;
     margin-bottom: 32px;

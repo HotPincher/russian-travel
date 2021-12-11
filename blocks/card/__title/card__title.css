@@ -1,4 +1,4 @@
-.places__title {
+.card__title {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -20,14 +20,14 @@
 }
 
 @media (max-width: 847px) {
-  .places__title {
+  .card__title {
     font-size: 42px;
     line-height: 110%;
   }
 }
 
 @media (max-width: 695px) {
-  .places__title {
+  .card__title {
     align-self: flex-start;
     padding: 0 16px;
     font-size: 32px;
