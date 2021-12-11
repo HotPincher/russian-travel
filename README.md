@@ -1,4 +1,4 @@
-#git push -u oH1 Project name: Travel Across Russia
+#H1 Project name: Travel Across Russia
 
 This is my second prototype project in Yandex Practicum Web Devlopper training course. 
 NOTICE: The current repository is for training purposes only. 
