@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
 
@@ -15,8 +15,9 @@
 
 @import url(../blocks/content/content.css);
 
-
 @import url(../blocks/link/link.css);
+
+@import url(../blocks/card/card.css);
 
 
 @import url(../blocks/lead/lead.css);
@@ -33,7 +34,6 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__span-element/intro__span-element.css);
-@import url(../blocks/intro/__stats-number/intro__stats-number.css);
 
 
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -42,8 +42,6 @@
 
 
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__cards/places__cards.css);
-@import url(../blocks/places/__card/places__card.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__website/places__website.css);
@@ -51,7 +49,6 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__main-content/places__main-content.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url(../blocks/places/__paragraph-preambule/places__paragraph-preambule.css);
 
 
 @import url(../blocks/cover/cover.css);

@@ -2,6 +2,7 @@
   max-width: 984px;
   margin: 0 auto;
   padding: 92px 148px;
+  height: fit-content;
   transition: all 1s linear;
 }
 

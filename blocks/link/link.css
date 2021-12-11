@@ -1,4 +1,4 @@
 .link:hover {
-  cursor: url(../../images/Pointer.png), pointer;
-  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  opacity:80%;
 }
